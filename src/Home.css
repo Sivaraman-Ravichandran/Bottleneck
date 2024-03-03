@@ -1,0 +1,88 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Use a common font for consistency */
+}
+
+.App {
+  text-align: center;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Add margin to separate from the header */
+}
+
+.imageWithDescription {
+  flex-basis: 30%;
+  padding: 10px;
+}
+
+.imageWithDescription img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imageWithDescription p {
+  margin-top: 10px;
+  font-size: 16px; /* Increase font size for better readability */
+  line-height: 1.6; /* Increase line height for better spacing */
+  color: #333; /* Use a darker color for better contrast */
+}
+
+.imageWithDescription p:first-child {
+  font-weight: bold; /* Add styling for the header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    margin: 0;
+  }
+}
+
+.imageWithDescription p:nth-child(n + 2) {
+  font-style: italic;
+}
+
+/* Add styling for the header */
+.header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 20px; /* Add padding for better spacing */
+  margin-bottom: 20px; /* Add margin to separate from the image container */
+}
+/* Add styling for the header */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+.titleBar {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.titleBar h1 {
+  margin: 0;
+}
